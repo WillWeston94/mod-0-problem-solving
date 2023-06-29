@@ -11,5 +11,7 @@ words = ["zelda", "backpack", "country", "link"]
 # Puts word in length == exactly 4 characters
 
 words.each do |word|
-    p word if word.size == 4
+    if word.size == 4
+    p word 
+    end
 end
